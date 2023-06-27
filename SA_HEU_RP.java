@@ -20,6 +20,7 @@ import jxl.write.WritableWorkbook;
 public class SA_HEU_RP {
 	private static final int RUN = 30;                       //运行次数
 	private static final int pop_num = 50;                   //种群大小
+	int uvi = 0;
 	
 	/*适应值计算参数*/
 	private static final int K = 10;               
